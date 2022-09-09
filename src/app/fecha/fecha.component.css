@@ -1,0 +1,49 @@
+div {
+    display: block;
+}.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    font-family: 'Segoe UI Semibold';
+    font-size: 18px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+.text-right {
+    text-align: right !important;
+}
+.col-12 {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+div {
+    display: block;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+}
+label {
+    cursor: default;
+}
+a, area, button, [role="button"], input, label, select, summary, textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+b, strong {
+    font-weight: bolder;
+}
+.col-12 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
